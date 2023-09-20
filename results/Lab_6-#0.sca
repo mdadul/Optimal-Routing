@@ -1,0 +1,508 @@
+version 3
+run Lab_6-0-20230919-20:31:06-5972
+attr configname Lab_6
+attr datetime 20230919-20:31:06
+attr datetimef 20230919-203106
+attr experiment Lab_6
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network fireNET_Lab_6
+attr processid 5972
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network fireNET_Lab_6
+config record-eventlog true
+config **.fireNET_Router[*].SRC 1
+config **.fireNET_Router[*].DEST 4
+config **.fireNET_Router[*].hopCount.result-recording-modes +histogram
+
+par fireNET_Lab_6.fireNET_Router[0].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[0].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[0].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[1].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[1].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[1].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[0].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[0].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[0].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[2].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[2].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[2].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[0].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[0].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[0].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[7].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[7].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[7].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[1].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[1].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[1].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[7].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[7].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[7].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[1].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[1].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[1].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[3].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[3].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[3].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[2].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[2].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[2].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[6].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[6].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[6].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[2].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[2].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[2].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[8].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[8].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[8].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[3].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[3].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[3].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[5].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[5].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[5].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[3].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[3].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[3].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[4].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[4].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[4].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[4].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[4].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[4].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[6].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[6].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[6].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[4].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[4].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[4].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[8].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[8].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[8].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[5].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[5].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[5].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[6].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[6].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[6].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[5].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[5].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[5].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[9].gate$o[0].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[9].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[9].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[7].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[7].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[7].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[9].gate$o[1].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[9].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[9].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[8].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[8].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[8].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[9].gate$o[2].channel typename "\"fireNET_Lab_6.Channel\""
+par fireNET_Lab_6.fireNET_Router[9].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_6.fireNET_Router[9].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_6.fireNET_Router[0] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[0] SRC 1
+par fireNET_Lab_6.fireNET_Router[0] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[0] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[0] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6.fireNET_Router[1] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[1] SRC 1
+par fireNET_Lab_6.fireNET_Router[1] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[1] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[1] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6.fireNET_Router[2] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[2] SRC 1
+par fireNET_Lab_6.fireNET_Router[2] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[2] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[2] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6.fireNET_Router[3] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[3] SRC 1
+par fireNET_Lab_6.fireNET_Router[3] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[3] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[3] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6.fireNET_Router[4] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[4] SRC 1
+par fireNET_Lab_6.fireNET_Router[4] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[4] hopCount:stats
+field count 12
+field mean 2.0833333333333
+field stddev 0.28867513459481
+field min 2
+field max 3
+field sum 25
+field sqrsum 53
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[4] hopCount:histogram
+field count 12
+field mean 2.0833333333333
+field stddev 0.28867513459481
+field min 2
+field max 3
+field sum 25
+field sqrsum 53
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	1	0
+bin	2	11
+bin	3	1
+bin	4	0
+par fireNET_Lab_6.fireNET_Router[5] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[5] SRC 1
+par fireNET_Lab_6.fireNET_Router[5] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[5] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[5] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6.fireNET_Router[6] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[6] SRC 1
+par fireNET_Lab_6.fireNET_Router[6] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[6] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[6] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6.fireNET_Router[7] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[7] SRC 1
+par fireNET_Lab_6.fireNET_Router[7] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[7] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[7] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6.fireNET_Router[8] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[8] SRC 1
+par fireNET_Lab_6.fireNET_Router[8] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[8] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[8] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6.fireNET_Router[9] typename "\"fireNET\""
+par fireNET_Lab_6.fireNET_Router[9] SRC 1
+par fireNET_Lab_6.fireNET_Router[9] DEST 4
+statistic fireNET_Lab_6.fireNET_Router[9] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic fireNET_Lab_6.fireNET_Router[9] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par fireNET_Lab_6 typename "\"fireNET_Lab_6\""
+

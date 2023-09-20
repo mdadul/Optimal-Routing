@@ -1,0 +1,235 @@
+version 3
+run Lab_4-0-20230809-05:28:20-14300
+attr configname Lab_4
+attr datetime 20230809-05:28:20
+attr datetimef 20230809-052820
+attr experiment Lab_4
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network fireNET_Lab_4
+attr processid 14300
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network fireNET_Lab_4
+config record-eventlog true
+config *.fireNET_Router[*].SRC 0
+config *.fireNET_Router[*].DEST 4
+
+par fireNET_Lab_4.fireNET_Router[0].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[0].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[0].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[1].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[1].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[1].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[0].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[0].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[0].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[2].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[2].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[2].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[0].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[0].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[0].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[7].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[7].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[7].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[1].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[1].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[1].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[7].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[7].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[7].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[1].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[1].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[1].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[3].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[3].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[3].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[2].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[2].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[2].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[6].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[6].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[6].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[2].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[2].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[2].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[8].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[8].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[8].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[3].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[3].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[3].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[5].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[5].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[5].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[3].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[3].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[3].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[4].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[4].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[4].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[4].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[4].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[4].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[6].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[6].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[6].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[4].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[4].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[4].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[8].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[8].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[8].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[5].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[5].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[5].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[6].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[6].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[6].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[5].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[5].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[5].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[9].gate$o[0].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[9].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[9].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[7].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[7].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[7].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[9].gate$o[1].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[9].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[9].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[8].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[8].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[8].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[9].gate$o[2].channel typename "\"fireNET_Lab_4.Channel\""
+par fireNET_Lab_4.fireNET_Router[9].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab_4.fireNET_Router[9].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab_4.fireNET_Router[0] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[0] SRC 0
+par fireNET_Lab_4.fireNET_Router[0] DEST 4
+par fireNET_Lab_4.fireNET_Router[1] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[1] SRC 0
+par fireNET_Lab_4.fireNET_Router[1] DEST 4
+par fireNET_Lab_4.fireNET_Router[2] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[2] SRC 0
+par fireNET_Lab_4.fireNET_Router[2] DEST 4
+par fireNET_Lab_4.fireNET_Router[3] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[3] SRC 0
+par fireNET_Lab_4.fireNET_Router[3] DEST 4
+par fireNET_Lab_4.fireNET_Router[4] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[4] SRC 0
+par fireNET_Lab_4.fireNET_Router[4] DEST 4
+par fireNET_Lab_4.fireNET_Router[5] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[5] SRC 0
+par fireNET_Lab_4.fireNET_Router[5] DEST 4
+par fireNET_Lab_4.fireNET_Router[6] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[6] SRC 0
+par fireNET_Lab_4.fireNET_Router[6] DEST 4
+par fireNET_Lab_4.fireNET_Router[7] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[7] SRC 0
+par fireNET_Lab_4.fireNET_Router[7] DEST 4
+par fireNET_Lab_4.fireNET_Router[8] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[8] SRC 0
+par fireNET_Lab_4.fireNET_Router[8] DEST 4
+par fireNET_Lab_4.fireNET_Router[9] typename "\"C201041\""
+par fireNET_Lab_4.fireNET_Router[9] SRC 0
+par fireNET_Lab_4.fireNET_Router[9] DEST 4
+par fireNET_Lab_4 typename "\"fireNET_Lab_4\""
+

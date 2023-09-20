@@ -1,0 +1,68 @@
+version 3
+run test1-0-20230726-22:24:10-17328
+attr configname test1
+attr datetime 20230726-22:24:10
+attr datetimef 20230726-222410
+attr experiment test1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network C201041_Lab2
+attr processid 17328
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network C201041_Lab2
+config record-eventlog true
+config C201032_Sorowar_Lab2.asif.limit 5
+config C201032_Sorowar_Lab2.emdad.limit 3
+config C201032_Sorowar_Lab2.moin.limit 6
+config C201032_Sorowar_Lab2.shovon.limit 3
+config C201032_Sorowar_Lab2.sorowar.limit 3
+
+par C201041_Lab2.asif.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab2.asif.out.channel disabled false
+attr mutable ""
+par C201041_Lab2.asif.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab2.shovon.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab2.shovon.out.channel disabled false
+attr mutable ""
+par C201041_Lab2.shovon.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab2.moin.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab2.moin.out.channel disabled false
+attr mutable ""
+par C201041_Lab2.moin.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab2.sorowar.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab2.sorowar.out.channel disabled false
+attr mutable ""
+par C201041_Lab2.sorowar.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab2.emdad.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab2.emdad.out.channel disabled false
+attr mutable ""
+par C201041_Lab2.emdad.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab2.asif typename "\"C201041PC\""
+par C201041_Lab2.asif limit 2
+par C201041_Lab2.shovon typename "\"C201041PC\""
+par C201041_Lab2.shovon limit 2
+par C201041_Lab2.sorowar typename "\"C201041PC\""
+par C201041_Lab2.sorowar limit 2
+par C201041_Lab2.moin typename "\"C201041PC\""
+par C201041_Lab2.moin limit 2
+par C201041_Lab2.emdad typename "\"C201041PC\""
+par C201041_Lab2.emdad limit 2
+par C201041_Lab2 typename "\"C201041_Lab2\""
+

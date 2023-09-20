@@ -1,0 +1,57 @@
+version 3
+run General-0-20230726-19:16:21-12412
+attr configname General
+attr datetime 20230726-19:16:21
+attr datetimef 20230726-191621
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network C201041_Lab1
+attr processid 12412
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network C201041_Lab1
+
+par C201041_Lab1.asif.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab1.asif.out.channel disabled false
+attr mutable ""
+par C201041_Lab1.asif.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab1.shovon.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab1.shovon.out.channel disabled false
+attr mutable ""
+par C201041_Lab1.shovon.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab1.moin.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab1.moin.out.channel disabled false
+attr mutable ""
+par C201041_Lab1.moin.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab1.sorowar.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab1.sorowar.out.channel disabled false
+attr mutable ""
+par C201041_Lab1.sorowar.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab1.emdad.out.channel typename "\"ned.DelayChannel\""
+par C201041_Lab1.emdad.out.channel disabled false
+attr mutable ""
+par C201041_Lab1.emdad.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par C201041_Lab1.asif typename "\"C201041PC\""
+par C201041_Lab1.shovon typename "\"C201041PC\""
+par C201041_Lab1.sorowar typename "\"C201041PC\""
+par C201041_Lab1.moin typename "\"C201041PC\""
+par C201041_Lab1.emdad typename "\"C201041PC\""
+par C201041_Lab1 typename "\"C201041_Lab1\""
+

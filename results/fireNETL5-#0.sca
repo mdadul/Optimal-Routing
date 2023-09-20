@@ -1,0 +1,95 @@
+version 3
+run fireNETL5-0-20230919-08:15:09-6444
+attr configname fireNETL5
+attr datetime 20230919-08:15:09
+attr datetimef 20230919-081509
+attr experiment fireNETL5
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network fireNET_lab1net5
+attr processid 6444
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network fireNET_lab1net5
+config fireNET_lab1net5.router[*].source 4
+
+par fireNET_lab1net5.router[0].gate$o[0].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[0].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[0].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[1].gate$o[0].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[1].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[1].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[1].gate$o[1].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[1].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[1].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[2].gate$o[0].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[2].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[2].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[1].gate$o[2].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[1].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[1].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[4].gate$o[0].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[4].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[4].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[3].gate$o[0].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[3].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[3].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[4].gate$o[1].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[4].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[4].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[4].gate$o[2].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[4].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[4].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[5].gate$o[0].channel typename "\"fireNET_lab1net5.firechannel\""
+par fireNET_lab1net5.router[5].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_lab1net5.router[5].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_lab1net5.router[0] typename "\"C201041\""
+par fireNET_lab1net5.router[0] source 4
+par fireNET_lab1net5.router[1] typename "\"C201041\""
+par fireNET_lab1net5.router[1] source 4
+par fireNET_lab1net5.router[2] typename "\"C201041\""
+par fireNET_lab1net5.router[2] source 4
+par fireNET_lab1net5.router[3] typename "\"C201041\""
+par fireNET_lab1net5.router[3] source 4
+par fireNET_lab1net5.router[4] typename "\"C201041\""
+par fireNET_lab1net5.router[4] source 4
+par fireNET_lab1net5.router[5] typename "\"C201041\""
+par fireNET_lab1net5.router[5] source 4
+par fireNET_lab1net5 typename "\"fireNET_lab1net5\""
+

@@ -1,0 +1,419 @@
+SB ov 1536 ev 2 rid Lab_6-0-20230919-20:31:06-5972
+
+E # 0 t 0 m 1 ce -1 msg -1
+MC id 1 c omnetpp::cModule t fireNET_Lab_6 n fireNET_Lab_6 cm 1
+MDC id 1 d ""
+MC id 2 c fireNET t fireNET pid 1 n fireNET_Router[0]
+MDC id 2 d i=block/app2
+MC id 3 c fireNET t fireNET pid 1 n fireNET_Router[1]
+MDC id 3 d i=block/app2
+MC id 4 c fireNET t fireNET pid 1 n fireNET_Router[2]
+MDC id 4 d i=block/app2
+MC id 5 c fireNET t fireNET pid 1 n fireNET_Router[3]
+MDC id 5 d i=block/app2
+MC id 6 c fireNET t fireNET pid 1 n fireNET_Router[4]
+MDC id 6 d i=block/app2
+MC id 7 c fireNET t fireNET pid 1 n fireNET_Router[5]
+MDC id 7 d i=block/app2
+MC id 8 c fireNET t fireNET pid 1 n fireNET_Router[6]
+MDC id 8 d i=block/app2
+MC id 9 c fireNET t fireNET pid 1 n fireNET_Router[7]
+MDC id 9 d i=block/app2
+MC id 10 c fireNET t fireNET pid 1 n fireNET_Router[8]
+MDC id 10 d i=block/app2
+MC id 11 c fireNET t fireNET pid 1 n fireNET_Router[9]
+MDC id 11 d i=block/app2
+GC m 2 g 1048576 n gate$i i 0 o 0
+GC m 2 g 1572864 n gate$o i 0 o 1
+GC m 3 g 1048576 n gate$i i 0 o 0
+GC m 3 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572864 dm 3 dg 1048576
+CDC sm 2 sg 1572864 d ""
+CC sm 3 sg 1572864 dm 2 dg 1048576
+CDC sm 3 sg 1572864 d ""
+GC m 2 g 1048577 n gate$i i 1 o 0
+GC m 2 g 1572865 n gate$o i 1 o 1
+GC m 4 g 1048576 n gate$i i 0 o 0
+GC m 4 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572865 dm 4 dg 1048576
+CDC sm 2 sg 1572865 d ""
+CC sm 4 sg 1572864 dm 2 dg 1048577
+CDC sm 4 sg 1572864 d ""
+GC m 2 g 1048578 n gate$i i 2 o 0
+GC m 2 g 1572866 n gate$o i 2 o 1
+GC m 9 g 1048576 n gate$i i 0 o 0
+GC m 9 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572866 dm 9 dg 1048576
+CDC sm 2 sg 1572866 d ""
+CC sm 9 sg 1572864 dm 2 dg 1048578
+CDC sm 9 sg 1572864 d ""
+GC m 3 g 1048577 n gate$i i 1 o 0
+GC m 3 g 1572865 n gate$o i 1 o 1
+GC m 9 g 1048577 n gate$i i 1 o 0
+GC m 9 g 1572865 n gate$o i 1 o 1
+CC sm 3 sg 1572865 dm 9 dg 1048577
+CDC sm 3 sg 1572865 d ""
+CC sm 9 sg 1572865 dm 3 dg 1048577
+CDC sm 9 sg 1572865 d ""
+GC m 3 g 1048578 n gate$i i 2 o 0
+GC m 3 g 1572866 n gate$o i 2 o 1
+GC m 5 g 1048576 n gate$i i 0 o 0
+GC m 5 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572866 dm 5 dg 1048576
+CDC sm 3 sg 1572866 d ""
+CC sm 5 sg 1572864 dm 3 dg 1048578
+CDC sm 5 sg 1572864 d ""
+GC m 4 g 1048577 n gate$i i 1 o 0
+GC m 4 g 1572865 n gate$o i 1 o 1
+GC m 8 g 1048576 n gate$i i 0 o 0
+GC m 8 g 1572864 n gate$o i 0 o 1
+CC sm 4 sg 1572865 dm 8 dg 1048576
+CDC sm 4 sg 1572865 d ""
+CC sm 8 sg 1572864 dm 4 dg 1048577
+CDC sm 8 sg 1572864 d ""
+GC m 4 g 1048578 n gate$i i 2 o 0
+GC m 4 g 1572866 n gate$o i 2 o 1
+GC m 10 g 1048576 n gate$i i 0 o 0
+GC m 10 g 1572864 n gate$o i 0 o 1
+CC sm 4 sg 1572866 dm 10 dg 1048576
+CDC sm 4 sg 1572866 d ""
+CC sm 10 sg 1572864 dm 4 dg 1048578
+CDC sm 10 sg 1572864 d ""
+GC m 5 g 1048577 n gate$i i 1 o 0
+GC m 5 g 1572865 n gate$o i 1 o 1
+GC m 7 g 1048576 n gate$i i 0 o 0
+GC m 7 g 1572864 n gate$o i 0 o 1
+CC sm 5 sg 1572865 dm 7 dg 1048576
+CDC sm 5 sg 1572865 d ""
+CC sm 7 sg 1572864 dm 5 dg 1048577
+CDC sm 7 sg 1572864 d ""
+GC m 5 g 1048578 n gate$i i 2 o 0
+GC m 5 g 1572866 n gate$o i 2 o 1
+GC m 6 g 1048576 n gate$i i 0 o 0
+GC m 6 g 1572864 n gate$o i 0 o 1
+CC sm 5 sg 1572866 dm 6 dg 1048576
+CDC sm 5 sg 1572866 d ""
+CC sm 6 sg 1572864 dm 5 dg 1048578
+CDC sm 6 sg 1572864 d ""
+GC m 6 g 1048577 n gate$i i 1 o 0
+GC m 6 g 1572865 n gate$o i 1 o 1
+GC m 8 g 1048577 n gate$i i 1 o 0
+GC m 8 g 1572865 n gate$o i 1 o 1
+CC sm 6 sg 1572865 dm 8 dg 1048577
+CDC sm 6 sg 1572865 d ""
+CC sm 8 sg 1572865 dm 6 dg 1048577
+CDC sm 8 sg 1572865 d ""
+GC m 6 g 1048578 n gate$i i 2 o 0
+GC m 6 g 1572866 n gate$o i 2 o 1
+GC m 10 g 1048577 n gate$i i 1 o 0
+GC m 10 g 1572865 n gate$o i 1 o 1
+CC sm 6 sg 1572866 dm 10 dg 1048577
+CDC sm 6 sg 1572866 d ""
+CC sm 10 sg 1572865 dm 6 dg 1048578
+CDC sm 10 sg 1572865 d ""
+GC m 7 g 1048577 n gate$i i 1 o 0
+GC m 7 g 1572865 n gate$o i 1 o 1
+GC m 8 g 1048578 n gate$i i 2 o 0
+GC m 8 g 1572866 n gate$o i 2 o 1
+CC sm 7 sg 1572865 dm 8 dg 1048578
+CDC sm 7 sg 1572865 d ""
+CC sm 8 sg 1572866 dm 7 dg 1048577
+CDC sm 8 sg 1572866 d ""
+GC m 7 g 1048578 n gate$i i 2 o 0
+GC m 7 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048576 n gate$i i 0 o 0
+GC m 11 g 1572864 n gate$o i 0 o 1
+CC sm 7 sg 1572866 dm 11 dg 1048576
+CDC sm 7 sg 1572866 d ""
+CC sm 11 sg 1572864 dm 7 dg 1048578
+CDC sm 11 sg 1572864 d ""
+GC m 9 g 1048578 n gate$i i 2 o 0
+GC m 9 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048577 n gate$i i 1 o 0
+GC m 11 g 1572865 n gate$o i 1 o 1
+CC sm 9 sg 1572866 dm 11 dg 1048577
+CDC sm 9 sg 1572866 d ""
+CC sm 11 sg 1572865 dm 9 dg 1048578
+CDC sm 11 sg 1572865 d ""
+GC m 10 g 1048578 n gate$i i 2 o 0
+GC m 10 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048578 n gate$i i 2 o 0
+GC m 11 g 1572866 n gate$o i 2 o 1
+CC sm 10 sg 1572866 dm 11 dg 1048578
+CDC sm 10 sg 1572866 d ""
+CC sm 11 sg 1572866 dm 10 dg 1048578
+CDC sm 11 sg 1572866 d ""
+CMB sm 1 tm 2 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n src-1-dest-4 pe -1
+BS id 0 tid 0 eid 0 etid 0 c fireNetmsg n src-1-dest-4 sm 2 st 0 am 2 at 0 pe 0
+ES id 0 tid 0 eid 0 etid 0 c fireNetmsg n src-1-dest-4 sm 2 st 0 am 2 at 0 pe 0
+CME
+CMB sm 1 tm 3 m initialize(0)
+CME
+CMB sm 1 tm 4 m initialize(0)
+CME
+CMB sm 1 tm 5 m initialize(0)
+CME
+CMB sm 1 tm 6 m initialize(0)
+CME
+CMB sm 1 tm 7 m initialize(0)
+CME
+CMB sm 1 tm 8 m initialize(0)
+CME
+CMB sm 1 tm 9 m initialize(0)
+CME
+CMB sm 1 tm 10 m initialize(0)
+CME
+CMB sm 1 tm 11 m initialize(0)
+CME
+
+E # 1 t 0 m 2 ce 0 msg 0
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c fireNetmsg n src-1-dest-4 m 2 pe 1
+SH sm 2 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c fireNetmsg n src-1-dest-4 sm 2 sg 1572865 st 0 am 4 ag 1048576 at 0.1 pe 1
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n src-1-dest-4 m 2 pe -1 cid 0
+
+E # 2 t 0.1 m 4 ce 1 msg 0
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c fireNetmsg n src-1-dest-4 m 4 pe 2
+SH sm 4 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c fireNetmsg n src-1-dest-4 sm 4 sg 1572865 st 0.1 am 8 ag 1048576 at 0.2 pe 2
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n src-1-dest-4 m 4 pe -1 cid 0
+
+E # 3 t 0.2 m 8 ce 2 msg 0
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c fireNetmsg n src-1-dest-4 m 8 pe 3
+SH sm 8 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 0.2 am 6 ag 1048577 at 0.3 pe 3
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 0
+
+E # 4 t 0.3 m 6 ce 3 msg 0
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 3 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n src-1-dest-4 m 6 pe 4
+CM id 1 tid 1 eid 1 etid 1 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 1 tid 1 eid 1 etid 1 c fireNetmsg n src-1-dest-4 m 6 pe 4
+SH sm 6 sg 1572865 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 0.3 am 8 ag 1048577 at 0.4 pe 4
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 1
+
+E # 5 t 0.4 m 8 ce 4 msg 1
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 1 tid 1 eid 1 etid 1 c fireNetmsg n src-1-dest-4 m 8 pe 5
+SH sm 8 sg 1572865 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 0.4 am 6 ag 1048577 at 0.5 pe 5
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 1
+
+E # 6 t 0.5 m 6 ce 5 msg 1
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 1 tid 1 eid 1 etid 1 c omnetpp::cMessage n src-1-dest-4 m 6 pe 6
+CM id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 2 tid 2 eid 2 etid 2 c fireNetmsg n src-1-dest-4 m 6 pe 6
+SH sm 6 sg 1572865 pd 0.1
+ES id 2 tid 2 eid 2 etid 2 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 0.5 am 8 ag 1048577 at 0.6 pe 6
+CL id 3 tid 2 eid 3 etid 2 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 2
+
+E # 7 t 0.6 m 8 ce 6 msg 2
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 2 tid 2 eid 2 etid 2 c fireNetmsg n src-1-dest-4 m 8 pe 7
+SH sm 8 sg 1572865 pd 0.1
+ES id 2 tid 2 eid 2 etid 2 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 0.6 am 6 ag 1048577 at 0.7 pe 7
+CL id 3 tid 2 eid 3 etid 2 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 2
+
+E # 8 t 0.7 m 6 ce 7 msg 2
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n src-1-dest-4 m 6 pe 8
+CM id 3 tid 3 eid 3 etid 3 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 3 tid 3 eid 3 etid 3 c fireNetmsg n src-1-dest-4 m 6 pe 8
+SH sm 6 sg 1572865 pd 0.1
+ES id 3 tid 3 eid 3 etid 3 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 0.7 am 8 ag 1048577 at 0.8 pe 8
+CL id 4 tid 3 eid 4 etid 3 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 3
+
+E # 9 t 0.8 m 8 ce 8 msg 3
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 3 tid 3 eid 3 etid 3 c fireNetmsg n src-1-dest-4 m 8 pe 9
+SH sm 8 sg 1572865 pd 0.1
+ES id 3 tid 3 eid 3 etid 3 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 0.8 am 6 ag 1048577 at 0.9 pe 9
+CL id 4 tid 3 eid 4 etid 3 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 3
+
+E # 10 t 0.9 m 6 ce 9 msg 3
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 3 tid 3 eid 3 etid 3 c omnetpp::cMessage n src-1-dest-4 m 6 pe 10
+CM id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 4 tid 4 eid 4 etid 4 c fireNetmsg n src-1-dest-4 m 6 pe 10
+SH sm 6 sg 1572865 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 0.9 am 8 ag 1048577 at 1 pe 10
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 4
+
+E # 11 t 1 m 8 ce 10 msg 4
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 4 tid 4 eid 4 etid 4 c fireNetmsg n src-1-dest-4 m 8 pe 11
+SH sm 8 sg 1572865 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 1 am 6 ag 1048577 at 1.1 pe 11
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 4
+
+E # 12 t 1.1 m 6 ce 11 msg 4
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n src-1-dest-4 m 6 pe 12
+CM id 5 tid 5 eid 5 etid 5 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 5 tid 5 eid 5 etid 5 c fireNetmsg n src-1-dest-4 m 6 pe 12
+SH sm 6 sg 1572865 pd 0.1
+ES id 5 tid 5 eid 5 etid 5 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 1.1 am 8 ag 1048577 at 1.2 pe 12
+CL id 6 tid 5 eid 6 etid 5 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 5
+
+E # 13 t 1.2 m 8 ce 12 msg 5
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 5 tid 5 eid 5 etid 5 c fireNetmsg n src-1-dest-4 m 8 pe 13
+SH sm 8 sg 1572865 pd 0.1
+ES id 5 tid 5 eid 5 etid 5 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 1.2 am 6 ag 1048577 at 1.3 pe 13
+CL id 6 tid 5 eid 6 etid 5 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 5
+
+E # 14 t 1.3 m 6 ce 13 msg 5
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 5 tid 5 eid 5 etid 5 c omnetpp::cMessage n src-1-dest-4 m 6 pe 14
+CM id 6 tid 6 eid 6 etid 6 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 6 tid 6 eid 6 etid 6 c fireNetmsg n src-1-dest-4 m 6 pe 14
+SH sm 6 sg 1572865 pd 0.1
+ES id 6 tid 6 eid 6 etid 6 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 1.3 am 8 ag 1048577 at 1.4 pe 14
+CL id 7 tid 6 eid 7 etid 6 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 6
+
+E # 15 t 1.4 m 8 ce 14 msg 6
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 6 tid 6 eid 6 etid 6 c fireNetmsg n src-1-dest-4 m 8 pe 15
+SH sm 8 sg 1572865 pd 0.1
+ES id 6 tid 6 eid 6 etid 6 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 1.4 am 6 ag 1048577 at 1.5 pe 15
+CL id 7 tid 6 eid 7 etid 6 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 6
+
+E # 16 t 1.5 m 6 ce 15 msg 6
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 6 tid 6 eid 6 etid 6 c omnetpp::cMessage n src-1-dest-4 m 6 pe 16
+CM id 7 tid 7 eid 7 etid 7 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 7 tid 7 eid 7 etid 7 c fireNetmsg n src-1-dest-4 m 6 pe 16
+SH sm 6 sg 1572865 pd 0.1
+ES id 7 tid 7 eid 7 etid 7 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 1.5 am 8 ag 1048577 at 1.6 pe 16
+CL id 8 tid 7 eid 8 etid 7 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 7
+
+E # 17 t 1.6 m 8 ce 16 msg 7
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 7 tid 7 eid 7 etid 7 c fireNetmsg n src-1-dest-4 m 8 pe 17
+SH sm 8 sg 1572865 pd 0.1
+ES id 7 tid 7 eid 7 etid 7 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 1.6 am 6 ag 1048577 at 1.7 pe 17
+CL id 8 tid 7 eid 8 etid 7 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 7
+
+E # 18 t 1.7 m 6 ce 17 msg 7
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 7 tid 7 eid 7 etid 7 c omnetpp::cMessage n src-1-dest-4 m 6 pe 18
+CM id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 8 tid 8 eid 8 etid 8 c fireNetmsg n src-1-dest-4 m 6 pe 18
+SH sm 6 sg 1572865 pd 0.1
+ES id 8 tid 8 eid 8 etid 8 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 1.7 am 8 ag 1048577 at 1.8 pe 18
+CL id 9 tid 8 eid 9 etid 8 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 8
+
+E # 19 t 1.8 m 8 ce 18 msg 8
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 8 tid 8 eid 8 etid 8 c fireNetmsg n src-1-dest-4 m 8 pe 19
+SH sm 8 sg 1572865 pd 0.1
+ES id 8 tid 8 eid 8 etid 8 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 1.8 am 6 ag 1048577 at 1.9 pe 19
+CL id 9 tid 8 eid 9 etid 8 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 8
+
+E # 20 t 1.9 m 6 ce 19 msg 8
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n src-1-dest-4 m 6 pe 20
+CM id 9 tid 9 eid 9 etid 9 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 9 tid 9 eid 9 etid 9 c fireNetmsg n src-1-dest-4 m 6 pe 20
+SH sm 6 sg 1572865 pd 0.1
+ES id 9 tid 9 eid 9 etid 9 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 1.9 am 8 ag 1048577 at 2 pe 20
+CL id 10 tid 9 eid 10 etid 9 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 9
+
+E # 21 t 2 m 8 ce 20 msg 9
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 9 tid 9 eid 9 etid 9 c fireNetmsg n src-1-dest-4 m 8 pe 21
+SH sm 8 sg 1572865 pd 0.1
+ES id 9 tid 9 eid 9 etid 9 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 2 am 6 ag 1048577 at 2.1 pe 21
+CL id 10 tid 9 eid 10 etid 9 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 9
+
+E # 22 t 2.1 m 6 ce 21 msg 9
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 9 tid 9 eid 9 etid 9 c omnetpp::cMessage n src-1-dest-4 m 6 pe 22
+CM id 10 tid 10 eid 10 etid 10 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 10 tid 10 eid 10 etid 10 c fireNetmsg n src-1-dest-4 m 6 pe 22
+SH sm 6 sg 1572865 pd 0.1
+ES id 10 tid 10 eid 10 etid 10 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 2.1 am 8 ag 1048577 at 2.2 pe 22
+CL id 11 tid 10 eid 11 etid 10 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 10
+
+E # 23 t 2.2 m 8 ce 22 msg 10
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 10 tid 10 eid 10 etid 10 c fireNetmsg n src-1-dest-4 m 8 pe 23
+SH sm 8 sg 1572865 pd 0.1
+ES id 10 tid 10 eid 10 etid 10 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 2.2 am 6 ag 1048577 at 2.3 pe 23
+CL id 11 tid 10 eid 11 etid 10 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 10
+
+E # 24 t 2.3 m 6 ce 23 msg 10
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 10 tid 10 eid 10 etid 10 c omnetpp::cMessage n src-1-dest-4 m 6 pe 24
+CM id 11 tid 11 eid 11 etid 11 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 11 tid 11 eid 11 etid 11 c fireNetmsg n src-1-dest-4 m 6 pe 24
+SH sm 6 sg 1572865 pd 0.1
+ES id 11 tid 11 eid 11 etid 11 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 2.3 am 8 ag 1048577 at 2.4 pe 24
+CL id 12 tid 11 eid 12 etid 11 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 11
+
+E # 25 t 2.4 m 8 ce 24 msg 11
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 11 tid 11 eid 11 etid 11 c fireNetmsg n src-1-dest-4 m 8 pe 25
+SH sm 8 sg 1572865 pd 0.1
+ES id 11 tid 11 eid 11 etid 11 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 2.4 am 6 ag 1048577 at 2.5 pe 25
+CL id 12 tid 11 eid 12 etid 11 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 11
+
+E # 26 t 2.5 m 6 ce 25 msg 11
+- INFO: Message (fireNetmsg)src-1-dest-4  arrived after 2 hops.
+BU id 6 txt "ARRIVED, starting a new one!"
+DM id 11 tid 11 eid 11 etid 11 c omnetpp::cMessage n src-1-dest-4 m 6 pe 26
+CM id 12 tid 12 eid 12 etid 12 c omnetpp::cMessage n src-1-dest-4 pe -1
+- INFO: Generating another message: (fireNetmsg)src-1-dest-4 (new msg)
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4 (new msg) on gate[1]
+BS id 12 tid 12 eid 12 etid 12 c fireNetmsg n src-1-dest-4 m 6 pe 26
+SH sm 6 sg 1572865 pd 0.1
+ES id 12 tid 12 eid 12 etid 12 c fireNetmsg n src-1-dest-4 sm 6 sg 1572865 st 2.5 am 8 ag 1048577 at 2.6 pe 26
+CL id 13 tid 12 eid 13 etid 12 c omnetpp::cMessage n src-1-dest-4 m 6 pe -1 cid 12
+
+E # 27 t 2.6 m 8 ce 26 msg 12
+- INFO: Forwarding message (fireNetmsg)src-1-dest-4  on gate[1]
+BS id 12 tid 12 eid 12 etid 12 c fireNetmsg n src-1-dest-4 m 8 pe 27
+SH sm 8 sg 1572865 pd 0.1
+ES id 12 tid 12 eid 12 etid 12 c fireNetmsg n src-1-dest-4 sm 8 sg 1572865 st 2.6 am 6 ag 1048577 at 2.7 pe 27
+CL id 13 tid 12 eid 13 etid 12 c omnetpp::cMessage n src-1-dest-4 m 8 pe -1 cid 12
+
+SE e 0 c 10 m "The user has finished the simulation -- at t=2.66386824s, event #27"

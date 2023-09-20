@@ -1,0 +1,215 @@
+SB ov 1536 ev 2 rid fireNET_Lab3-test1-0-20230802-23:21:35-9256
+
+E # 0 t 0 m 1 ce -1 msg -1
+MC id 1 c omnetpp::cModule t fireNET_Lab3 n fireNET_Lab3 cm 1
+MDC id 1 d ""
+MC id 2 c lab3 t lab3 pid 1 n fireNET_router[0]
+MDC id 2 d i=block/app2
+MC id 3 c lab3 t lab3 pid 1 n fireNET_router[1]
+MDC id 3 d i=block/app2
+MC id 4 c lab3 t lab3 pid 1 n fireNET_router[2]
+MDC id 4 d i=block/app2
+MC id 5 c lab3 t lab3 pid 1 n fireNET_router[3]
+MDC id 5 d i=block/app2
+MC id 6 c lab3 t lab3 pid 1 n fireNET_router[4]
+MDC id 6 d i=block/app2
+MC id 7 c lab3 t lab3 pid 1 n fireNET_router[5]
+MDC id 7 d i=block/app2
+GC m 2 g 1048576 n gate$i i 0 o 0
+GC m 2 g 1572864 n gate$o i 0 o 1
+GC m 3 g 1048576 n gate$i i 0 o 0
+GC m 3 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572864 dm 3 dg 1048576
+CDC sm 2 sg 1572864 d ""
+CC sm 3 sg 1572864 dm 2 dg 1048576
+CDC sm 3 sg 1572864 d ""
+GC m 3 g 1048577 n gate$i i 1 o 0
+GC m 3 g 1572865 n gate$o i 1 o 1
+GC m 4 g 1048576 n gate$i i 0 o 0
+GC m 4 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572865 dm 4 dg 1048576
+CDC sm 3 sg 1572865 d ""
+CC sm 4 sg 1572864 dm 3 dg 1048577
+CDC sm 4 sg 1572864 d ""
+GC m 3 g 1048578 n gate$i i 2 o 0
+GC m 3 g 1572866 n gate$o i 2 o 1
+GC m 6 g 1048576 n gate$i i 0 o 0
+GC m 6 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572866 dm 6 dg 1048576
+CDC sm 3 sg 1572866 d ""
+CC sm 6 sg 1572864 dm 3 dg 1048578
+CDC sm 6 sg 1572864 d ""
+GC m 5 g 1048576 n gate$i i 0 o 0
+GC m 5 g 1572864 n gate$o i 0 o 1
+GC m 6 g 1048577 n gate$i i 1 o 0
+GC m 6 g 1572865 n gate$o i 1 o 1
+CC sm 5 sg 1572864 dm 6 dg 1048577
+CDC sm 5 sg 1572864 d ""
+CC sm 6 sg 1572865 dm 5 dg 1048576
+CDC sm 6 sg 1572865 d ""
+GC m 6 g 1048578 n gate$i i 2 o 0
+GC m 6 g 1572866 n gate$o i 2 o 1
+GC m 7 g 1048576 n gate$i i 0 o 0
+GC m 7 g 1572864 n gate$o i 0 o 1
+CC sm 6 sg 1572866 dm 7 dg 1048576
+CDC sm 6 sg 1572866 d ""
+CC sm 7 sg 1572864 dm 6 dg 1048578
+CDC sm 7 sg 1572864 d ""
+CMB sm 1 tm 2 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" pe -1
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 2 st 0 am 2 at 0 pe 0
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 2 st 0 am 2 at 0 pe 0
+CME
+CMB sm 1 tm 3 m initialize(0)
+CME
+CMB sm 1 tm 4 m initialize(0)
+CME
+CMB sm 1 tm 5 m initialize(0)
+CME
+CMB sm 1 tm 6 m initialize(0)
+CME
+CMB sm 1 tm 7 m initialize(0)
+CME
+
+E # 1 t 0 m 2 ce 0 msg 0
+- INFO: 11 5 0
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 2 pe 1
+SH sm 2 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 2 sg 1572864 st 0 am 3 ag 1048576 at 0.1 pe 1
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 2 pe -1 cid 0
+
+E # 2 t 0.1 m 3 ce 1 msg 0
+- INFO: 11 5 1
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[1]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe 2
+SH sm 3 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 3 sg 1572865 st 0.1 am 4 ag 1048576 at 0.2 pe 2
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe -1 cid 0
+
+E # 3 t 0.2 m 4 ce 2 msg 0
+- INFO: 11 5 2
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 4 pe 3
+SH sm 4 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 4 sg 1572864 st 0.2 am 3 ag 1048577 at 0.3 pe 3
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 4 pe -1 cid 0
+
+E # 4 t 0.3 m 3 ce 3 msg 0
+- INFO: 10 5 1
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[1]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe 4
+SH sm 3 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 3 sg 1572865 st 0.3 am 4 ag 1048576 at 0.4 pe 4
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe -1 cid 0
+
+E # 5 t 0.4 m 4 ce 4 msg 0
+- INFO: 10 5 2
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 4 pe 5
+SH sm 4 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 4 sg 1572864 st 0.4 am 3 ag 1048577 at 0.5 pe 5
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 4 pe -1 cid 0
+
+E # 6 t 0.5 m 3 ce 5 msg 0
+- INFO: 9 5 1
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[1]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe 6
+SH sm 3 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 3 sg 1572865 st 0.5 am 4 ag 1048576 at 0.6 pe 6
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe -1 cid 0
+
+E # 7 t 0.6 m 4 ce 6 msg 0
+- INFO: 9 5 2
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 4 pe 7
+SH sm 4 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 4 sg 1572864 st 0.6 am 3 ag 1048577 at 0.7 pe 7
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 4 pe -1 cid 0
+
+E # 8 t 0.7 m 3 ce 7 msg 0
+- INFO: 8 5 1
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe 8
+SH sm 3 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 3 sg 1572864 st 0.7 am 2 ag 1048576 at 0.8 pe 8
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe -1 cid 0
+
+E # 9 t 0.8 m 2 ce 8 msg 0
+- INFO: 10 5 0
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 2 pe 9
+SH sm 2 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 2 sg 1572864 st 0.8 am 3 ag 1048576 at 0.9 pe 9
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 2 pe -1 cid 0
+
+E # 10 t 0.9 m 3 ce 9 msg 0
+- INFO: 7 5 1
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[2]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe 10
+SH sm 3 sg 1572866 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 3 sg 1572866 st 0.9 am 6 ag 1048576 at 1 pe 10
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe -1 cid 0
+
+E # 11 t 1 m 6 ce 10 msg 0
+- INFO: 11 5 4
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 6 pe 11
+SH sm 6 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 6 sg 1572864 st 1 am 3 ag 1048578 at 1.1 pe 11
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 6 pe -1 cid 0
+
+E # 12 t 1.1 m 3 ce 11 msg 0
+- INFO: 6 5 1
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe 12
+SH sm 3 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 3 sg 1572864 st 1.1 am 2 ag 1048576 at 1.2 pe 12
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe -1 cid 0
+
+E # 13 t 1.2 m 2 ce 12 msg 0
+- INFO: 9 5 0
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 2 pe 13
+SH sm 2 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 2 sg 1572864 st 1.2 am 3 ag 1048576 at 1.3 pe 13
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 2 pe -1 cid 0
+
+E # 14 t 1.3 m 3 ce 13 msg 0
+- INFO: 5 5 1
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[2]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe 14
+SH sm 3 sg 1572866 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 3 sg 1572866 st 1.3 am 6 ag 1048576 at 1.4 pe 14
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 3 pe -1 cid 0
+
+E # 15 t 1.4 m 6 ce 14 msg 0
+- INFO: 10 5 4
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[1]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 6 pe 15
+SH sm 6 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 6 sg 1572865 st 1.4 am 5 ag 1048576 at 1.5 pe 15
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 6 pe -1 cid 0
+
+E # 16 t 1.5 m 5 ce 15 msg 0
+- INFO: 11 5 3
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 5 pe 16
+SH sm 5 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 5 sg 1572864 st 1.5 am 6 ag 1048577 at 1.6 pe 16
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 5 pe -1 cid 0
+
+E # 17 t 1.6 m 6 ce 16 msg 0
+- INFO: 9 5 4
+- INFO: Forwarding message (omnetpp::cMessage)fireNET members  on port out[2]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 6 pe 17
+SH sm 6 sg 1572866 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" sm 6 sg 1572866 st 1.6 am 7 ag 1048576 at 1.7 pe 17
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n "fireNET members" m 6 pe -1 cid 0
+
+E # 18 t 1.7 m 7 ce 17 msg 0
+- INFO: 11 5 5
+- INFO: Message Sent Successfully || reached Destination!
+DM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "fireNET members" m 7 pe 18
+
+SE e 0 c 13 m "No more events, simulation completed -- at t=1.7s, event #18"

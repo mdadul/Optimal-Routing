@@ -1,0 +1,79 @@
+SB ov 1536 ev 2 rid fireNET_Lab3-test3-0-20230802-23:19:41-6524
+
+E # 0 t 0 m 1 ce -1 msg -1
+MC id 1 c omnetpp::cModule t fireNET_Lab3 n fireNET_Lab3 cm 1
+MDC id 1 d ""
+MC id 2 c lab3 t lab3 pid 1 n fireNET_router[0]
+MDC id 2 d i=block/routing
+MC id 3 c lab3 t lab3 pid 1 n fireNET_router[1]
+MDC id 3 d i=block/routing
+MC id 4 c lab3 t lab3 pid 1 n fireNET_router[2]
+MDC id 4 d i=block/routing
+MC id 5 c lab3 t lab3 pid 1 n fireNET_router[3]
+MDC id 5 d i=block/routing
+MC id 6 c lab3 t lab3 pid 1 n fireNET_router[4]
+MDC id 6 d i=block/routing
+MC id 7 c lab3 t lab3 pid 1 n fireNET_router[5]
+MDC id 7 d i=block/routing
+GC m 2 g 1048576 n gate$i i 0 o 0
+GC m 2 g 1572864 n gate$o i 0 o 1
+GC m 3 g 1048576 n gate$i i 0 o 0
+GC m 3 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572864 dm 3 dg 1048576
+CDC sm 2 sg 1572864 d ""
+CC sm 3 sg 1572864 dm 2 dg 1048576
+CDC sm 3 sg 1572864 d ""
+GC m 3 g 1048577 n gate$i i 1 o 0
+GC m 3 g 1572865 n gate$o i 1 o 1
+GC m 4 g 1048576 n gate$i i 0 o 0
+GC m 4 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572865 dm 4 dg 1048576
+CDC sm 3 sg 1572865 d ""
+CC sm 4 sg 1572864 dm 3 dg 1048577
+CDC sm 4 sg 1572864 d ""
+GC m 3 g 1048578 n gate$i i 2 o 0
+GC m 3 g 1572866 n gate$o i 2 o 1
+GC m 6 g 1048576 n gate$i i 0 o 0
+GC m 6 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572866 dm 6 dg 1048576
+CDC sm 3 sg 1572866 d ""
+CC sm 6 sg 1572864 dm 3 dg 1048578
+CDC sm 6 sg 1572864 d ""
+GC m 5 g 1048576 n gate$i i 0 o 0
+GC m 5 g 1572864 n gate$o i 0 o 1
+GC m 6 g 1048577 n gate$i i 1 o 0
+GC m 6 g 1572865 n gate$o i 1 o 1
+CC sm 5 sg 1572864 dm 6 dg 1048577
+CDC sm 5 sg 1572864 d ""
+CC sm 6 sg 1572865 dm 5 dg 1048576
+CDC sm 6 sg 1572865 d ""
+GC m 6 g 1048578 n gate$i i 2 o 0
+GC m 6 g 1572866 n gate$o i 2 o 1
+GC m 7 g 1048576 n gate$i i 0 o 0
+GC m 7 g 1572864 n gate$o i 0 o 1
+CC sm 6 sg 1572866 dm 7 dg 1048576
+CDC sm 6 sg 1572866 d ""
+CC sm 7 sg 1572864 dm 6 dg 1048578
+CDC sm 7 sg 1572864 d ""
+CMB sm 1 tm 2 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Time to Chill - fireNET members" pe -1
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Time to Chill - fireNET members" sm 2 st 0 am 2 at 0 pe 0
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Time to Chill - fireNET members" sm 2 st 0 am 2 at 0 pe 0
+CME
+CMB sm 1 tm 3 m initialize(0)
+CME
+CMB sm 1 tm 4 m initialize(0)
+CME
+CMB sm 1 tm 5 m initialize(0)
+CME
+CMB sm 1 tm 6 m initialize(0)
+CME
+CMB sm 1 tm 7 m initialize(0)
+CME
+
+E # 1 t 0 m 2 ce 0 msg 0
+- INFO: 0 4 0
+- INFO: fireNET_router's counter reached Zero, deleting message!
+DM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "Time to Chill - fireNET members" m 2 pe 1
+
+SE e 0 c 13 m "No more events, simulation completed -- at t=0s, event #1"

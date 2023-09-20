@@ -1,0 +1,32 @@
+file 933 1695133911                                             
+version 3
+run Lab_6-0-20230919-20:31:06-5972
+attr configname Lab_6
+attr datetime 20230919-20:31:06
+attr datetimef 20230919-203106
+attr experiment Lab_6
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network fireNET_Lab_6
+attr processid 5972
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network fireNET_Lab_6
+config record-eventlog true
+config **.fireNET_Router[*].SRC 1
+config **.fireNET_Router[*].DEST 4
+config **.fireNET_Router[*].hopCount.result-recording-modes +histogram
+
+vector 0 fireNET_Lab_6.fireNET_Router[4] hopCount:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr source arrival
+attr title "hop count"
+0	790 141 4 26 0.3 2.5 12 2 3 25 53
+

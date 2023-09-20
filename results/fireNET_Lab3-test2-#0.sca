@@ -1,0 +1,103 @@
+version 3
+run fireNET_Lab3-test2-0-20230802-23:19:52-6524
+attr configname fireNET_Lab3-test2
+attr datetime 20230802-23:19:52
+attr datetimef 20230802-231952
+attr experiment fireNET_Lab3-test2
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network fireNET_Lab3
+attr processid 6524
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network fireNET_Lab3
+config record-eventlog true
+config fireNET_Lab3.fireNET_router[*].destination 2
+config fireNET_Lab3.fireNET_router[*].limit 9
+
+par fireNET_Lab3.fireNET_router[0].gate$o[0].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[0].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[0].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[1].gate$o[0].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[1].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[1].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[1].gate$o[1].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[1].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[1].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[2].gate$o[0].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[2].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[2].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[1].gate$o[2].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[1].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[1].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[4].gate$o[0].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[4].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[4].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[3].gate$o[0].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[3].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[3].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[4].gate$o[1].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[4].gate$o[1].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[4].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[4].gate$o[2].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[4].gate$o[2].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[4].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[5].gate$o[0].channel typename "\"fireNET_Lab3.Channel\""
+par fireNET_Lab3.fireNET_router[5].gate$o[0].channel disabled false
+attr mutable ""
+par fireNET_Lab3.fireNET_router[5].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par fireNET_Lab3.fireNET_router[0] typename "\"lab3\""
+par fireNET_Lab3.fireNET_router[0] limit 9
+par fireNET_Lab3.fireNET_router[0] destination 2
+par fireNET_Lab3.fireNET_router[1] typename "\"lab3\""
+par fireNET_Lab3.fireNET_router[1] limit 9
+par fireNET_Lab3.fireNET_router[1] destination 2
+par fireNET_Lab3.fireNET_router[2] typename "\"lab3\""
+par fireNET_Lab3.fireNET_router[2] limit 9
+par fireNET_Lab3.fireNET_router[2] destination 2
+par fireNET_Lab3.fireNET_router[3] typename "\"lab3\""
+par fireNET_Lab3.fireNET_router[3] limit 9
+par fireNET_Lab3.fireNET_router[3] destination 2
+par fireNET_Lab3.fireNET_router[4] typename "\"lab3\""
+par fireNET_Lab3.fireNET_router[4] limit 9
+par fireNET_Lab3.fireNET_router[4] destination 2
+par fireNET_Lab3.fireNET_router[5] typename "\"lab3\""
+par fireNET_Lab3.fireNET_router[5] limit 9
+par fireNET_Lab3.fireNET_router[5] destination 2
+par fireNET_Lab3 typename "\"fireNET_Lab3\""
+

@@ -1,0 +1,508 @@
+version 3
+run OptimalRouting-0-20230920-10:31:17-8912
+attr configname OptimalRouting
+attr datetime 20230920-10:31:17
+attr datetimef 20230920-103117
+attr experiment OptimalRouting
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network OptimalRouting
+attr processid 8912
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network OptimalRouting
+config record-eventlog true
+config **.fireNET_Router[*].SRC 1
+config **.fireNET_Router[*].DEST 4
+config **.fireNET_Router[*].hopCount.result-recording-modes +histogram
+
+par OptimalRouting.fireNET_Router[0].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[0].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[0].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[1].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[1].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[1].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[0].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[0].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[0].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[2].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[2].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[2].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[0].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[0].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[0].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[7].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[7].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[7].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[1].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[1].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[1].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[7].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[7].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[7].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[1].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[1].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[1].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[3].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[3].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[3].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[2].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[2].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[2].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[6].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[6].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[6].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[2].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[2].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[2].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[8].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[8].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[8].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[3].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[3].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[3].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[5].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[5].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[5].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[3].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[3].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[3].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[4].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[4].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[4].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[4].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[4].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[4].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[6].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[6].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[6].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[4].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[4].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[4].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[8].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[8].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[8].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[5].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[5].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[5].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[6].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[6].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[6].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[5].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[5].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[5].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[9].gate$o[0].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[9].gate$o[0].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[9].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[7].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[7].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[7].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[9].gate$o[1].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[9].gate$o[1].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[9].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[8].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[8].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[8].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[9].gate$o[2].channel typename "\"OptimalRouting.Channel\""
+par OptimalRouting.fireNET_Router[9].gate$o[2].channel disabled false
+attr mutable ""
+par OptimalRouting.fireNET_Router[9].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par OptimalRouting.fireNET_Router[0] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[0] SRC 1
+par OptimalRouting.fireNET_Router[0] DEST 4
+statistic OptimalRouting.fireNET_Router[0] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[0] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting.fireNET_Router[1] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[1] SRC 1
+par OptimalRouting.fireNET_Router[1] DEST 4
+statistic OptimalRouting.fireNET_Router[1] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[1] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting.fireNET_Router[2] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[2] SRC 1
+par OptimalRouting.fireNET_Router[2] DEST 4
+statistic OptimalRouting.fireNET_Router[2] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[2] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting.fireNET_Router[3] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[3] SRC 1
+par OptimalRouting.fireNET_Router[3] DEST 4
+statistic OptimalRouting.fireNET_Router[3] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[3] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting.fireNET_Router[4] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[4] SRC 1
+par OptimalRouting.fireNET_Router[4] DEST 4
+statistic OptimalRouting.fireNET_Router[4] hopCount:stats
+field count 17
+field mean 2.0588235294118
+field stddev 0.24253562503633
+field min 2
+field max 3
+field sum 35
+field sqrsum 73
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[4] hopCount:histogram
+field count 17
+field mean 2.0588235294118
+field stddev 0.24253562503633
+field min 2
+field max 3
+field sum 35
+field sqrsum 73
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	1	0
+bin	2	16
+bin	3	1
+bin	4	0
+par OptimalRouting.fireNET_Router[5] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[5] SRC 1
+par OptimalRouting.fireNET_Router[5] DEST 4
+statistic OptimalRouting.fireNET_Router[5] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[5] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting.fireNET_Router[6] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[6] SRC 1
+par OptimalRouting.fireNET_Router[6] DEST 4
+statistic OptimalRouting.fireNET_Router[6] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[6] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting.fireNET_Router[7] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[7] SRC 1
+par OptimalRouting.fireNET_Router[7] DEST 4
+statistic OptimalRouting.fireNET_Router[7] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[7] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting.fireNET_Router[8] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[8] SRC 1
+par OptimalRouting.fireNET_Router[8] DEST 4
+statistic OptimalRouting.fireNET_Router[8] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[8] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting.fireNET_Router[9] typename "\"fireNET\""
+par OptimalRouting.fireNET_Router[9] SRC 1
+par OptimalRouting.fireNET_Router[9] DEST 4
+statistic OptimalRouting.fireNET_Router[9] hopCount:stats
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode stats
+attr source arrival
+attr title "hop count"
+statistic OptimalRouting.fireNET_Router[9] hopCount:histogram
+field count 0
+field mean nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr recordingmode histogram
+attr source arrival
+attr title "hop count"
+bin	-inf	0
+bin	0	0
+bin	1	0
+par OptimalRouting typename "\"OptimalRouting\""
+

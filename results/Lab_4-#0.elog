@@ -1,0 +1,230 @@
+SB ov 1536 ev 2 rid Lab_4-0-20230809-05:28:20-14300
+
+E # 0 t 0 m 1 ce -1 msg -1
+MC id 1 c omnetpp::cModule t fireNET_Lab_4 n fireNET_Lab_4 cm 1
+MDC id 1 d bgb=734,306,grey,red,5;i=abstract/accesspoint;is=vl;i2=status/checkmark,green,85;bgi=background/streetmap,s
+MC id 2 c C201041 t C201041 pid 1 n fireNET_Router[0]
+MDC id 2 d i=block/app2
+MC id 3 c C201041 t C201041 pid 1 n fireNET_Router[1]
+MDC id 3 d i=block/app2
+MC id 4 c C201041 t C201041 pid 1 n fireNET_Router[2]
+MDC id 4 d i=block/app2
+MC id 5 c C201041 t C201041 pid 1 n fireNET_Router[3]
+MDC id 5 d i=block/app2
+MC id 6 c C201041 t C201041 pid 1 n fireNET_Router[4]
+MDC id 6 d i=block/app2
+MC id 7 c C201041 t C201041 pid 1 n fireNET_Router[5]
+MDC id 7 d i=block/app2
+MC id 8 c C201041 t C201041 pid 1 n fireNET_Router[6]
+MDC id 8 d i=block/app2
+MC id 9 c C201041 t C201041 pid 1 n fireNET_Router[7]
+MDC id 9 d i=block/app2
+MC id 10 c C201041 t C201041 pid 1 n fireNET_Router[8]
+MDC id 10 d i=block/app2
+MC id 11 c C201041 t C201041 pid 1 n fireNET_Router[9]
+MDC id 11 d i=block/app2
+GC m 2 g 1048576 n gate$i i 0 o 0
+GC m 2 g 1572864 n gate$o i 0 o 1
+GC m 3 g 1048576 n gate$i i 0 o 0
+GC m 3 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572864 dm 3 dg 1048576
+CDC sm 2 sg 1572864 d ""
+CC sm 3 sg 1572864 dm 2 dg 1048576
+CDC sm 3 sg 1572864 d ""
+GC m 2 g 1048577 n gate$i i 1 o 0
+GC m 2 g 1572865 n gate$o i 1 o 1
+GC m 4 g 1048576 n gate$i i 0 o 0
+GC m 4 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572865 dm 4 dg 1048576
+CDC sm 2 sg 1572865 d ""
+CC sm 4 sg 1572864 dm 2 dg 1048577
+CDC sm 4 sg 1572864 d ""
+GC m 2 g 1048578 n gate$i i 2 o 0
+GC m 2 g 1572866 n gate$o i 2 o 1
+GC m 9 g 1048576 n gate$i i 0 o 0
+GC m 9 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572866 dm 9 dg 1048576
+CDC sm 2 sg 1572866 d ""
+CC sm 9 sg 1572864 dm 2 dg 1048578
+CDC sm 9 sg 1572864 d ""
+GC m 3 g 1048577 n gate$i i 1 o 0
+GC m 3 g 1572865 n gate$o i 1 o 1
+GC m 9 g 1048577 n gate$i i 1 o 0
+GC m 9 g 1572865 n gate$o i 1 o 1
+CC sm 3 sg 1572865 dm 9 dg 1048577
+CDC sm 3 sg 1572865 d ""
+CC sm 9 sg 1572865 dm 3 dg 1048577
+CDC sm 9 sg 1572865 d ""
+GC m 3 g 1048578 n gate$i i 2 o 0
+GC m 3 g 1572866 n gate$o i 2 o 1
+GC m 5 g 1048576 n gate$i i 0 o 0
+GC m 5 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572866 dm 5 dg 1048576
+CDC sm 3 sg 1572866 d ""
+CC sm 5 sg 1572864 dm 3 dg 1048578
+CDC sm 5 sg 1572864 d ""
+GC m 4 g 1048577 n gate$i i 1 o 0
+GC m 4 g 1572865 n gate$o i 1 o 1
+GC m 8 g 1048576 n gate$i i 0 o 0
+GC m 8 g 1572864 n gate$o i 0 o 1
+CC sm 4 sg 1572865 dm 8 dg 1048576
+CDC sm 4 sg 1572865 d ""
+CC sm 8 sg 1572864 dm 4 dg 1048577
+CDC sm 8 sg 1572864 d ""
+GC m 4 g 1048578 n gate$i i 2 o 0
+GC m 4 g 1572866 n gate$o i 2 o 1
+GC m 10 g 1048576 n gate$i i 0 o 0
+GC m 10 g 1572864 n gate$o i 0 o 1
+CC sm 4 sg 1572866 dm 10 dg 1048576
+CDC sm 4 sg 1572866 d ""
+CC sm 10 sg 1572864 dm 4 dg 1048578
+CDC sm 10 sg 1572864 d ""
+GC m 5 g 1048577 n gate$i i 1 o 0
+GC m 5 g 1572865 n gate$o i 1 o 1
+GC m 7 g 1048576 n gate$i i 0 o 0
+GC m 7 g 1572864 n gate$o i 0 o 1
+CC sm 5 sg 1572865 dm 7 dg 1048576
+CDC sm 5 sg 1572865 d ""
+CC sm 7 sg 1572864 dm 5 dg 1048577
+CDC sm 7 sg 1572864 d ""
+GC m 5 g 1048578 n gate$i i 2 o 0
+GC m 5 g 1572866 n gate$o i 2 o 1
+GC m 6 g 1048576 n gate$i i 0 o 0
+GC m 6 g 1572864 n gate$o i 0 o 1
+CC sm 5 sg 1572866 dm 6 dg 1048576
+CDC sm 5 sg 1572866 d ""
+CC sm 6 sg 1572864 dm 5 dg 1048578
+CDC sm 6 sg 1572864 d ""
+GC m 6 g 1048577 n gate$i i 1 o 0
+GC m 6 g 1572865 n gate$o i 1 o 1
+GC m 8 g 1048577 n gate$i i 1 o 0
+GC m 8 g 1572865 n gate$o i 1 o 1
+CC sm 6 sg 1572865 dm 8 dg 1048577
+CDC sm 6 sg 1572865 d ""
+CC sm 8 sg 1572865 dm 6 dg 1048577
+CDC sm 8 sg 1572865 d ""
+GC m 6 g 1048578 n gate$i i 2 o 0
+GC m 6 g 1572866 n gate$o i 2 o 1
+GC m 10 g 1048577 n gate$i i 1 o 0
+GC m 10 g 1572865 n gate$o i 1 o 1
+CC sm 6 sg 1572866 dm 10 dg 1048577
+CDC sm 6 sg 1572866 d ""
+CC sm 10 sg 1572865 dm 6 dg 1048578
+CDC sm 10 sg 1572865 d ""
+GC m 7 g 1048577 n gate$i i 1 o 0
+GC m 7 g 1572865 n gate$o i 1 o 1
+GC m 8 g 1048578 n gate$i i 2 o 0
+GC m 8 g 1572866 n gate$o i 2 o 1
+CC sm 7 sg 1572865 dm 8 dg 1048578
+CDC sm 7 sg 1572865 d ""
+CC sm 8 sg 1572866 dm 7 dg 1048577
+CDC sm 8 sg 1572866 d ""
+GC m 7 g 1048578 n gate$i i 2 o 0
+GC m 7 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048576 n gate$i i 0 o 0
+GC m 11 g 1572864 n gate$o i 0 o 1
+CC sm 7 sg 1572866 dm 11 dg 1048576
+CDC sm 7 sg 1572866 d ""
+CC sm 11 sg 1572864 dm 7 dg 1048578
+CDC sm 11 sg 1572864 d ""
+GC m 9 g 1048578 n gate$i i 2 o 0
+GC m 9 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048577 n gate$i i 1 o 0
+GC m 11 g 1572865 n gate$o i 1 o 1
+CC sm 9 sg 1572866 dm 11 dg 1048577
+CDC sm 9 sg 1572866 d ""
+CC sm 11 sg 1572865 dm 9 dg 1048578
+CDC sm 11 sg 1572865 d ""
+GC m 10 g 1048578 n gate$i i 2 o 0
+GC m 10 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048578 n gate$i i 2 o 0
+GC m 11 g 1572866 n gate$o i 2 o 1
+CC sm 10 sg 1572866 dm 11 dg 1048578
+CDC sm 10 sg 1572866 d ""
+CC sm 11 sg 1572866 dm 10 dg 1048578
+CDC sm 11 sg 1572866 d ""
+CMB sm 1 tm 2 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 pe -1
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 2 st 0 am 2 at 0 pe 0
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 2 st 0 am 2 at 0 pe 0
+CME
+CMB sm 1 tm 3 m initialize(0)
+CME
+CMB sm 1 tm 4 m initialize(0)
+CME
+CMB sm 1 tm 5 m initialize(0)
+CME
+CMB sm 1 tm 6 m initialize(0)
+CME
+CMB sm 1 tm 7 m initialize(0)
+CME
+CMB sm 1 tm 8 m initialize(0)
+CME
+CMB sm 1 tm 9 m initialize(0)
+CME
+CMB sm 1 tm 10 m initialize(0)
+CME
+CMB sm 1 tm 11 m initialize(0)
+CME
+
+E # 1 t 0 m 2 ce 0 msg 0
+- INFO: Forwarding message (omnetpp::cMessage)tic-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 2 pe 1
+SH sm 2 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 2 sg 1572864 st 0 am 3 ag 1048576 at 0.1 pe 1
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-0 m 2 pe -1 cid 0
+
+E # 2 t 0.1 m 3 ce 1 msg 0
+- INFO: Forwarding message (omnetpp::cMessage)tic-0  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 3 pe 2
+SH sm 3 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 3 sg 1572865 st 0.1 am 9 ag 1048577 at 0.2 pe 2
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-0 m 3 pe -1 cid 0
+
+E # 3 t 0.2 m 9 ce 2 msg 0
+- INFO: Forwarding message (omnetpp::cMessage)tic-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 9 pe 3
+SH sm 9 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 9 sg 1572864 st 0.2 am 2 ag 1048578 at 0.3 pe 3
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-0 m 9 pe -1 cid 0
+
+E # 4 t 0.3 m 2 ce 3 msg 0
+- INFO: Forwarding message (omnetpp::cMessage)tic-0  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 2 pe 4
+SH sm 2 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 2 sg 1572865 st 0.3 am 4 ag 1048576 at 0.4 pe 4
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-0 m 2 pe -1 cid 0
+
+E # 5 t 0.4 m 4 ce 4 msg 0
+- INFO: Forwarding message (omnetpp::cMessage)tic-0  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 4 pe 5
+SH sm 4 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 4 sg 1572865 st 0.4 am 8 ag 1048576 at 0.5 pe 5
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-0 m 4 pe -1 cid 0
+
+E # 6 t 0.5 m 8 ce 5 msg 0
+- INFO: Forwarding message (omnetpp::cMessage)tic-0  on gate[2]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 8 pe 6
+SH sm 8 sg 1572866 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 8 sg 1572866 st 0.5 am 7 ag 1048577 at 0.6 pe 6
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-0 m 8 pe -1 cid 0
+
+E # 7 t 0.6 m 7 ce 6 msg 0
+- INFO: Forwarding message (omnetpp::cMessage)tic-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 7 pe 7
+SH sm 7 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 7 sg 1572864 st 0.6 am 5 ag 1048577 at 0.7 pe 7
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-0 m 7 pe -1 cid 0
+
+E # 8 t 0.7 m 5 ce 7 msg 0
+- INFO: Forwarding message (omnetpp::cMessage)tic-0  on gate[2]
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 5 pe 8
+SH sm 5 sg 1572866 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 sm 5 sg 1572866 st 0.7 am 6 ag 1048576 at 0.8 pe 8
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-0 m 5 pe -1 cid 0
+
+E # 9 t 0.8 m 6 ce 8 msg 0
+- INFO: Message (omnetpp::cMessage)tic-0  arrived!
+DM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-0 m 6 pe 9
+
+SE e 0 c 13 m "No more events, simulation completed -- at t=0.8s, event #9"
